@@ -20,7 +20,6 @@ app.use(methodOverride(function (req, res) {
     }
 }));
 
-//hey just checking for poll scm
 
 let todolist = [];
 
