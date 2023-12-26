@@ -79,6 +79,7 @@ app.get('/todo', function (req, res) {
     .use(function (req, res, next) {
         res.redirect('/todo');
     })
+    ///
 
     .listen(port, function () {
         // Logging to console
